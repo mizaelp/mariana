@@ -27,6 +27,11 @@ function escreverTexto() {
 
 function mostrarCoração() {
     document.querySelector('.heart-container').style.opacity = '1';
+    document.querySelector('.texto-no-meio').style.opacity = '1';
+    setTimeout(() => {
+        document.querySelector('.heart-container').style.opacity = '0';
+        document.querySelector('.texto-no-meio').style.opacity = '0';
+    }, 3000);
 }
 
 escreverTexto();
