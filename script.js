@@ -31,7 +31,7 @@ function mostrarCoração() {
     setTimeout(() => {
         document.querySelector('.heart-container').style.opacity = '0';
         document.querySelector('.texto-no-meio').style.opacity = '0';
-    }, 3000);
+    }, 5000);
 }
 
 escreverTexto();
